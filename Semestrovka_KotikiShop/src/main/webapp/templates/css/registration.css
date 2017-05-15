@@ -1,0 +1,66 @@
+.login-page {
+    width: 100%;
+    padding: 8% 0 0;
+    margin: 0 auto 0;
+}
+
+.form {
+    position: relative;
+    right: 50px;
+    z-index: 1;
+    background: #f8769e;
+    max-width: 460px;
+    margin: 0 auto 0;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.58), 0 5px 5px 0 rgba(0, 0, 0, 0.68);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Fantasy", serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #ff5797;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+    background: #f66a92;
+}
+
+.form .register-form {
+    display: none;
+}
+
+body {
+    background-image: url("http://oboi.cc/1920-1080-100-uploads/11_05_2013/view/201210/oboik.ru_56491.jpg") ;
+    background-size: cover;
+    font-family: "Fantasy", serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form .error {
+    font-family: "Fantasy", serif;
+    color: #f884a5;
+}
+
+i {
+    color: #ed77a9;
+}

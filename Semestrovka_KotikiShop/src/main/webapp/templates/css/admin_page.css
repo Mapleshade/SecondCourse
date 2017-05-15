@@ -1,0 +1,53 @@
+.href {
+    font-family: "Fantasy", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    right: 250px;
+}
+
+.href:hover, .href:active, .href:focus {
+    background: #00ff00;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bt {
+    margin-left: 89%;
+    margin-top: 0.5%;
+}
+
+.middle-body {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.button-panel {
+    margin: auto;
+    padding: 10%;
+}
+
+
+.footer-body {
+    width: 100%;
+    height: 5%;
+    position: relative;
+    background: grey;
+}
+
+body {
+    margin: 0;
+    background-image: url("http://petterest.net/wp-content/uploads/2016/03/9-2-1024x640.jpg") ;
+    background-size: cover;
+    font-family: "Fantasy", serif;
+}

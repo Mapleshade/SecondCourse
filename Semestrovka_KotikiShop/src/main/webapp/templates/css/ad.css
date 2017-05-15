@@ -1,0 +1,31 @@
+a {
+    font-family: "Fantasy", serif;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #17a09d;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-image: url("http://petterest.net/wp-content/uploads/2016/03/9-2-1024x640.jpg") ;
+    background-size: cover;
+    color: #000000;
+    font-family: "Fantasy", serif;
+}
+
+.product{
+    color: #FFFFFF;
+}
+
+.product:hover, .product:active, .product:focus {
+    color: fuchsia;
+}
+
+i {
+    color: red;
+}
